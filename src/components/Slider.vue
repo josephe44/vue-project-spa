@@ -7,7 +7,7 @@
       disableOnInteraction: false,
     }"
     :modules="modules"
-    class="mySwiper"
+    class="z-0"
   >
     <swiper-slide
       ><img
