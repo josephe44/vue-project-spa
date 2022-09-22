@@ -5,7 +5,7 @@
       <div class="md:ml-2 w-[14vw] h-[14vw] py-2">
         <li @click="changeState(icon)">
           <img
-            class="cursor-pointer hover:translate-y-1 transition-all duration-300 w-full h-full object-cover"
+            class="cursor-pointer hover:translate-y-1 transition-all w-full h-full object-cover"
             :src="icon.status ? icon.imgOne : icon.imgTwo"
             alt="navgation-icon"
           />

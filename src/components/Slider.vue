@@ -10,10 +10,16 @@
     class="mySwiper"
   >
     <swiper-slide
-      ><img src="../assets/images/slider.png" alt=""
+      ><img
+        src="https://res.cloudinary.com/eworldtech/image/upload/c_scale,w_1024/v1663870484/slider_pkgvjc.png"
+        alt="image-slider"
+        class="w-full h-full"
     /></swiper-slide>
     <swiper-slide
-      ><img src="../assets/images/slider.png" alt=""
+      ><img
+        src="https://res.cloudinary.com/eworldtech/image/upload/c_scale,w_1024/v1663870484/slider_pkgvjc.png"
+        alt="image-slider"
+        class="w-full h-full"
     /></swiper-slide>
   </swiper>
 </template>

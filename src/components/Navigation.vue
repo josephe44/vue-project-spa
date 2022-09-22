@@ -7,7 +7,7 @@
         <ul class="grid grid-cols-5 gap-4">
           <li v-for="icon in icons" :key="icon.id" @click="changeState(icon)">
             <img
-              class="w-6 h-6 md:w-9 md:h-9 cursor-pointer hover:translate-y-1 transition-all duration-300"
+              class="w-6 h-6 md:w-9 md:h-9 cursor-pointer hover:translate-y-1 transition-all"
               :src="icon.status ? icon.imgOne : icon.imgTwo"
               alt="navgation-icon"
             />
